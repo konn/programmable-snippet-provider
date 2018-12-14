@@ -1,0 +1,35 @@
+{
+  "name": "programmable-snippet-provider",
+  "displayName": "Programmable Snippet Provider",
+  "description": "More programmable snippet provider",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konn/programmable-snippet-provider"
+  },
+  "version": "0.0.1",
+  "publisher": "mr-konn",
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "vscode": "^1.1.21",
+    "tslint": "^5.8.0",
+    "@types/node": "^8.10.25",
+    "@types/mocha": "^2.2.42"
+  }
+}
