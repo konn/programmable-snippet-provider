@@ -26,7 +26,7 @@
     "test": "npm run compile && node ./node_modules/vscode/bin/test"
   },
   "dependencies": {
-    "querystringify": ">=2.0.0",
+    "querystringify": "2.0.0",
     "js-yaml": ">=3.13.1",
     "fstream": ">=1.0.12"
   },
