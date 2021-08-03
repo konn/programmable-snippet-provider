@@ -35,7 +35,7 @@
     "querystringify": "2.0.0",
     "vscode": "^1.1.21",
     "tslint": "^5.8.0",
-    "tar": ">=4.4.2",
+    "tar": ">=4.4.15",
     "@types/node": "^8.10.25",
     "@types/mocha": "^2.2.42"
   }
